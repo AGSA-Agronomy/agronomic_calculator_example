@@ -26,3 +26,7 @@ def density(mass, volume):
     """Calculate density"""
     return mass / volume
 
+def ml_mm3(ml, mm3):
+    """Calculate ml to mm3"""
+    return ml * 1000
+
