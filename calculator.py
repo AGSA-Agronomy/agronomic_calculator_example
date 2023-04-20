@@ -5,6 +5,9 @@ def acres_to_hectare(acres):
 def bu_ac_to_kg_ha(lb_ha):
     """This function converts corn grain yield in bushel per acre to kg per hectare"""
     return lb_ac / 0.0159
+def lb_to_kg(lb):
+    """FUnction to convert lb to kg"""
+    return lb * 0.453592
 
 def gwv_to_vwc(gwc, bd):
     """ Convert Gravimetric Water Content into 
