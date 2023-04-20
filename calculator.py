@@ -18,3 +18,6 @@ def corn_bushel_acre_to_kg_hectare(bushels):
     kg_hectar = bushels *62.77
     return kg_hectar
 
+def hectare_to_acres(hectare):
+    """This function converts area in acres to hectares"""
+    return hectare * 2.47
