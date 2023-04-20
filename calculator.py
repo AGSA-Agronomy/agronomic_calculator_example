@@ -18,3 +18,5 @@ def corn_bushel_acre_to_kg_hectare(bushels):
     kg_hectar = bushels *62.77
     return kg_hectar
 
+def density(mass, volume):
+    return mass / volume
