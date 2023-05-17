@@ -6,6 +6,8 @@ def bu_ac_to_kg_ha(lb_ha):
     """This function converts corn grain yield in bushel per acre to kg per hectare"""
     return lb_ac / 0.0159
 
+
+
 def lb_to_kg(lb):
     """FUnction to convert lb to kg"""
     return lb * 0.453592
@@ -23,4 +25,8 @@ def corn_bushel_acre_to_kg_hectare(bushels):
 def density(mass, volume):
     """Calculate density"""
     return mass / volume
+
+def ml_mm3(ml, mm3):
+    """Calculate ml to mm3"""
+    return ml * 1000
 
